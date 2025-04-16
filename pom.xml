@@ -3,17 +3,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.httydcraft.lamp</groupId>
-    <artifactId>TelegramLampModule</artifactId>
+    <artifactId>vk-module</artifactId>
+    <name>TelegramLampModule</name>
     <version>v1.0</version>
 
     <properties>
-        <!-- Dependencies -->
+        <!-- Building -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>8</java.version>
-        <lamp-library.version>3.1.5</lamp-library.version>
+
+        <!-- Dependencies -->
+        <lamp-library.version>3.3.6</lamp-library.version>
         <telegram-library.version>6.5.0</telegram-library.version>
-        <maven.compiler.plugin.version>3.11.0</maven.compiler.plugin.version>
+
+        <!-- Maven plugins -->
+        <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
         <maven.jar.plugin.version>3.2.0</maven.jar.plugin.version>
         <maven.source.plugin.version>3.2.0</maven.source.plugin.version>
+
     </properties>
 
     <repositories>
