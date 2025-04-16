@@ -8,11 +8,10 @@
 
     <properties>
         <!-- Dependencies -->
+        <java.version>8</java.version>
         <lamp-library.version>3.1.5</lamp-library.version>
         <telegram-library.version>6.5.0</telegram-library.version>
-
-        <!-- Maven plugins -->
-        <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+        <maven.compiler.plugin.version>3.11.0</maven.compiler.plugin.version>
         <maven.jar.plugin.version>3.2.0</maven.jar.plugin.version>
         <maven.source.plugin.version>3.2.0</maven.source.plugin.version>
     </properties>
